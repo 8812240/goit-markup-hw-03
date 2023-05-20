@@ -4,12 +4,18 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="Efektywne rozwiazania dla waszego biznesu"/>
         <title>Webstudio</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="./css/styles.css"/>
     </head>
     <body>
         <!--nagłówek strony-->
-        <header>
+        <header class="page-header container">
+            <div class="page-header left">
             <!--logo w nagłówku-->
             <a class="logo" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
             <!--menu nawigacyjne-->
@@ -27,6 +33,7 @@
                     </li>
                 </ul>
             </nav>
+        </div>
             <!--linki do kontaktu-->
             <ul class="contact">
                 <li>
@@ -40,7 +47,8 @@
     <!--Główna zawartość strony-->
     <main>
         <!--Menu strony-->
-            <ul>
+        <div class="container">
+            <ul class="portfolio-button-menu">
                 <li>
                     <button class="portfolio-button-blue" type="button">Wszytkie</button>
                 </li>
@@ -57,7 +65,8 @@
                     <button class="portfolio-button" type="button">Marketing</button>
                 </li>
             </ul>
-        <section>
+        </div>
+        <section class="container">
             <!--Zdjecia pierwszy rzad-->
             <ul class="portfolio-section">
                 <li>
@@ -112,7 +121,10 @@
     </main>
     <footer>
         <!--stopka wraz z linkiem do strony i adres-->
+        <div class="container">
+            <div class="footer-logo">
         <a class="logo-footer" href="./index.html"><span class="logo-blue-footer">Web</span>Studio</a>
+    </div>
         <address>
             <ul class="contact-footer">
                 <li>
@@ -126,6 +138,7 @@
                 </li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>
