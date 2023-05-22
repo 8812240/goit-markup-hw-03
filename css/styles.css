@@ -176,7 +176,7 @@ padding: 25px 0 24px 0;
 }
 
 .hero-button:hover {
-    color: var(--blue);
+    color: var(--gray);
 }
 
 .first-section {
