@@ -262,6 +262,11 @@ padding: 25px 0 24px 0;
     display: inline-block;
 }
 
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .third-section {
     padding: 94px 0 94px 0;
     background: #F5F4FA;
@@ -406,13 +411,14 @@ footer {
     color: #FFFFFF;
 }
 
+.portfolio-card {
+    padding: 20px 24px;
+}
+
 .portfolio-section {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.portfolio-section li {
 }
 
 .portfolio-section p {
@@ -424,4 +430,5 @@ footer {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
